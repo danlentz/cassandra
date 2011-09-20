@@ -94,7 +94,12 @@
     </Keyspace>
 
 
-    <Keyspace Name="SPOC">
+  <Keyspace Name="SPOC">
+
+      <!-- the following columnfamily is corrected version of that specified in 
+       ~ de.setf.rewsource.cassandra. Additional fixes are in lisp source. 
+      -->
+
       <ColumnFamily Name="SPOCIndex"
                     ColumnType="Standard"
                     CompareWith="BytesType"
